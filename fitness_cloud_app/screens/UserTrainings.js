@@ -15,7 +15,6 @@ import { CircleButton } from '../components/Button'
 
 const UserTrainings = ({ route, navigation }) => {
     const { authData, authFunctions } = useContext(AuthContext);
-    // data == selected user
     const { data } = route.params; 
 
     useFocusEffect(

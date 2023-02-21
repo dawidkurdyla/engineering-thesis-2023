@@ -162,12 +162,6 @@ const ExerciseDetails = ({ route, navigation }) => {
                     </View>
                 </ScrollView>
             }</Observer>
-
-            {/* <View style={styles.background}>
-                <View style={{ height: 250, backgroundColor: COLORS.primary }} />
-                <View style={{ flex: 1, backgroundColor: COLORS.border }} />
-            </View> */}
-
         </SafeAreaView>
     )
 }

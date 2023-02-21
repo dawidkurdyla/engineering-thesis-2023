@@ -5,7 +5,6 @@ import React, {useContext} from 'react';
 
 import ProxyService from './ProxyService';
 
-// const createProfile = async ()
 class ProfileService {
 
     static async getMyProfile(token, isCoach,){

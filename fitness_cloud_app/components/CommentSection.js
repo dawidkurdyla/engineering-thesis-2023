@@ -9,7 +9,6 @@ import TrainingStore from '../stores/TrainingStore'
 import CommentStore from '../stores/CommentStore'
 import ProfileStore from '../stores/ProfileStore'
 import { AuthContext } from '../context'
-// import { COLORS, SHADOWS, SIZES } from '../constants'
 import { IconButton } from '../components/Button'
 import { MessageInput } from '../components/CustomInput';
 import { Video } from 'expo-av';

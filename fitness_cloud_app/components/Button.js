@@ -116,7 +116,6 @@ export const TextButton = (props) => {
             flexDirection: 'row',
             justifyContent: 'flex-end',
             alignContent: 'center' ,
-            // width: "50%"
          }}
         >
             <CircleButton

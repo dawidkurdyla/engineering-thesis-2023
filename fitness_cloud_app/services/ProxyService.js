@@ -1,7 +1,6 @@
 /**
  * API for interaction with the server RESTful API
  */
-// import { BASE_URL }from '@env'
 
 
 class ProxyService {

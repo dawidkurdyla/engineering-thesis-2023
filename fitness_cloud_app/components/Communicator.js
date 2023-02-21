@@ -32,7 +32,6 @@ const MessageBubble = ({ message, myProfile }) => {
                     {message.content}
                 </Text>
             </View>
-            {/* <Text style={{ color: 'black' }}>{comment.date}</Text> */}
 
         </View>
     )
@@ -63,14 +62,7 @@ const Communicator = (props) => {
             visible={props.visible}
             animationType="slide"
         >
-            {/* <TouchableWithoutFeedback
-            activeOpacity={1}
-            onPress={() => props.handleClose()}
-        > */}
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(0,0,0,0.5)' }}>
-                {/* <TouchableWithoutFeedback
-                    activeOpacity={1}
-                > */}
                 <View
                     style={styles.addContactMenu}
                 >
@@ -107,10 +99,7 @@ const Communicator = (props) => {
                         }</Observer>
                     </View>
                 </View>
-                {/* </TouchableWithoutFeedback> */}
             </View>
-            {/* </TouchableWithoutFeedback > */}
-
         </Modal>
 
     )

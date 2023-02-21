@@ -177,10 +177,6 @@ const styles = StyleSheet.create({
         zIndex: 10,
         alignSelf: 'center',
         marginTop: 75,
-        // position: "absolute",
-        // alignSelf: 'flex-end',
-        // bottom: 15,
-        // right: 15,
         ...SHADOWS.dark
     },
 })

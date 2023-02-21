@@ -85,7 +85,6 @@ export const FlatProfileCard = ({ data, onPress, isContact }) => {
     )
 }
 
-// export const FlatProfileCard
 
 const styles = StyleSheet.create({
     bottomCard: {
@@ -130,13 +129,10 @@ const styles = StyleSheet.create({
         flexShrink: 1,
     },
     smallUsername: {
-        // position: "absolute",
-        // marginBottom: -30,
         flexShrink: 1,
         fontSize: SIZES.font,
     },
     smallUserTitle: {
-        // marginTop: 3,
         flexShrink: 1,
         fontSize: SIZES.large,
     }
